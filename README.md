@@ -16,6 +16,8 @@ This system integrates MySQL as the backend database and uses JDBC (Java Databas
  * View customer orders and update order statuses.
  * View Customer Feedback
  * Monitor restaurant ratings and reviews.
+
+   
 🛒 Customer Functionalities
 
  * Restaurant & Menu Browsing
@@ -24,16 +26,22 @@ This system integrates MySQL as the backend database and uses JDBC (Java Databas
  * Add/remove items to/from the cart before confirming an order.
  * Review & Feedback System
  * Provide feedback after an order is completed.
+
+
 📊 Data Structure Implementations
 
  * Stack (For maintaining order history)
  * Doubly Linked List (For managing customer orders in adding to cart efficiently)
+
+
 🛠 Tech Stack
 
  * Java (Core Logic)
  * MySQL (Database)
  * JDBC (Database Connection)
  * Data Structures: Doubly Linked List
+
+   
 📂 Project Structure
 /FoodOrderingSystem │── /src │ ├── FoodOrderingSystem1.java # Main entry point │ ├── Admin.java # Admin functionalities │ ├── Customer.java # Customer functionalities │ ├── CartItem.java # Manages items in the cart │ ├── RestaurantRating.java # Handles restaurant reviews │ ├── OrderedItem.java # Stores order details │ ├── Connection_database.java # JDBC MySQL connection │ ├── Stack.java # Implements Stack for order history │ ├── DoublyLinkedList.java # Implements Doubly Linked List for managing orders in cart │── /db │ ├── food_ordering_schema.sql # SQL script to set up the database │── README.md
 
